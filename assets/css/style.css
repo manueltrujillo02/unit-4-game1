@@ -1,0 +1,36 @@
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 150px;
+    margin-top: 50px;
+    
+   
+   
+}
+body{
+    background-image: url(http://fc06.deviantart.net/fs70/f/2014/164/f/9/hd_minecraft_background_by_banetm-d7m6vw5.png)
+    
+}
+#number{
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 170px;
+    
+}
+.container { 
+    height: px;
+    position: relative;
+    
+  }
+  
+  .center {
+    margin-top: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+ 

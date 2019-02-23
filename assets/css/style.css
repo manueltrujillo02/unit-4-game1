@@ -35,9 +35,38 @@ body{
     
 }
  
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 980px) {
     body {
-    background-image: url(http://www.wallpaperbetter.com/wallpaper/871/12/1002/games-minecraft-abstract-video-games-diamonds-dark--wallpaper-middle-size.jpg)
+        
+            background-image: url(http://www.wallpaperbetter.com/wallpaper/871/12/1002/games-minecraft-abstract-video-games-diamonds-dark--wallpaper-middle-size.jpg)
+         
+        
+    }
+    .container { 
+        height: 400px;
+        position: relative;
+        
+    }
+    .center {
+        margin-top: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    h1{
+        text-align: center;
+        color: aliceblue;
+        font-size: 80px;
+        margin-top: 50px;
+    }
+    #number{
+        color: black;
+        text-align: center;
+        font-size: 50px;
+        margin-top: 170px;
+        
     }
 }
 

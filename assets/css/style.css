@@ -8,10 +8,7 @@ h1{
    
    
 }
-body{
-    background-image: url(http://fc06.deviantart.net/fs70/f/2014/164/f/9/hd_minecraft_background_by_banetm-d7m6vw5.png)
-    
-}
+
 #number{
     color: black;
     text-align: center;
@@ -20,17 +17,36 @@ body{
     
 }
 .container { 
-    height: px;
+    height: 400px;
     position: relative;
     
-  }
+}
   
-  .center {
+.center {
     margin-top: 500px;
     position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  }
+}
+body{
+    background-image: url(http://fc06.deviantart.net/fs70/f/2014/164/f/9/hd_minecraft_background_by_banetm-d7m6vw5.png)
+    
+}
+ 
+@media screen and (max-width: 992px) {
+    body {
+    background-image: url(http://www.wallpaperbetter.com/wallpaper/871/12/1002/games-minecraft-abstract-video-games-diamonds-dark--wallpaper-middle-size.jpg)
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+    background-color: olive;
+    }
+}
+
+
  

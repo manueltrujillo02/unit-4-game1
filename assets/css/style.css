@@ -1,24 +1,35 @@
 
 h1{
     text-align: center;
-    color: aliceblue;
-    font-size: 150px;
+    color: black;
+    font-size: 80px;
     margin-top: 50px;
+    border-bottom-color: black;
+   
     
    
    
 }
-
-#number{
-    color: black;
+#crystal2{
     text-align: center;
-    font-size: 100px;
+    font-size: 35px;
+}
+#number{
+    color:black;
+    text-align: center;
+    font-size: 50px;
     margin-top: 170px;
     
 }
 .container { 
     height: 400px;
     position: relative;
+   
+    
+}
+.border{
+    padding-bottom: 10px;
+    padding: black;
     
 }
   
@@ -31,15 +42,18 @@ h1{
     transform: translate(-50%, -50%);
 }
 body{
-    background-image: url(http://fc06.deviantart.net/fs70/f/2014/164/f/9/hd_minecraft_background_by_banetm-d7m6vw5.png)
+   
+}
+.btn-choice{
     
+    background-color: black;
+    animation: 100px;
 }
  
 @media screen and (max-width: 980px) {
     body {
         
-            background-image: url(http://www.wallpaperbetter.com/wallpaper/871/12/1002/games-minecraft-abstract-video-games-diamonds-dark--wallpaper-middle-size.jpg)
-         
+            background-image: url
         
     }
     .container { 

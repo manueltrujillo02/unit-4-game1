@@ -1,6 +1,6 @@
 var randomNum = Math.floor((Math.random() * 50) + 1); {
 
-        $("#number").text(randomNum);
+        $("#number").text("RANDOM NUMBER: " + randomNum);
     
     }
     
@@ -13,23 +13,24 @@ var randomNum = Math.floor((Math.random() * 50) + 1); {
         var wins = 0;
         var losses = 0;
         var result = 0;
-        var resultText = $("#yourguess");
-        $("#yourguess").text(result);
+        $("#losses").text("LOSSES: " + losses)
+        $("#wins").text("WINS: " + wins)
+        $("#yourguess").text("YOUR GUESS: " + result);
     
         $("#button1").on("click", function () {
-    
+                
             $("#yourguess").text(result += randomNum1);
             console.log(randomNum1)
     
             if (result === randomNum) {
                 wins++
                 console.log(wins)
-                alert("you won")
+                $("#wins").text("WINS: " + wins)
             }
             if (result > randomNum) {
                 losses++
                 console.log(losses)
-                alert("you lost")
+                $("#losses").text("LOSSES: " + losses)
             }
         });
         
@@ -41,12 +42,12 @@ var randomNum = Math.floor((Math.random() * 50) + 1); {
             if (result === randomNum) {
                 wins++
                 console.log(wins)
-                alert("you won")
+                $("#wins").text("WINS: " + wins)
             }
             if (result > randomNum) {
                 losses++
                 console.log(losses)
-                alert("you lost")
+                $("#losses").text("LOSSES: " + losses)
             }
     
         });
@@ -59,12 +60,12 @@ var randomNum = Math.floor((Math.random() * 50) + 1); {
             if (result === randomNum) {
                 wins++
                 console.log(wins)
-                alert("you won")
+                $("#wins").text("WINS: " + wins)
             }
             if (result > randomNum) {
                 losses++
                 console.log(losses)
-                alert("you lost")
+                $("#losses").text("LOSSES: " + losses)
             }
         });
        
@@ -76,12 +77,12 @@ var randomNum = Math.floor((Math.random() * 50) + 1); {
             if (result === randomNum) {
                 wins++
                 console.log(wins)
-                alert("you won")
+                $("#wins").text("WINS: " + wins)
             }
             if (result > randomNum) {
                 losses++
                 console.log(losses)
-                alert("you lost")
+                $("#losses").text("LOSSES: " + losses)
             }
         });
     

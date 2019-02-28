@@ -26,9 +26,15 @@ h1{
     
 }
 
-.border-bottom{
-    border-bottom: 10px;
-   border-color: black;
+#commit{
+    /* text-align: center; */
+font-weight: bold;
+color: red;
+}
+
+.border{
+    padding-bottom: 10px;
+    padding: black;
     
 }
   
